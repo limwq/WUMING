@@ -1,42 +1,33 @@
-# WUMING
-
-\# Wuming 🗡️ 
+# Wuming 🗡️ 
 
 
 
-\[Insert a punchy, one-sentence hook about the game's core premise here]
+WUMING is a fast-paced, three-dimensional hack-and-slash action game steeped in Daoist themes.
 
 
 
-!\[Gameplay Hook](Link\_to\_your\_gameplay\_GIF\_here)
+![WUMING](<img width="800" height="450" alt="gifimage" src="https://github.com/user-attachments/assets/aa658cd9-e8a0-46bd-bde1-928031b917a3" />)
 
 
 
-\## 📌 Overview
+## 📌 Overview
 
 \[Insert the engaging summary from your itch.io description here, highlighting the main objective and the vibe of the game.]
 
 
+* **Engine:** Unity 6
+* **Language:** C#
+* **Genre:** 3D Action
+* **Role:** Gameplay Programmer & Level Designer
 
-\* \*\*Engine:\*\* \[Unity / Unreal Engine 5]
-
-\* \*\*Genre:\*\* \[e.g., 2D Action / 3D Puzzle]
-
-\* \*\*Role:\*\* Gameplay Programmer
-
-
-
-\## 👥 The Team
-
-\* \*\*Lim Wei Qi:\*\* \[e.g., Core Architecture, Player Controller, Interaction Systems]
-
-\* \*\*\[Teammate 1 Name]:\*\* \[e.g., Level Designer / 3D Artist]
-
-\* \*\*\[Teammate 2 Name]:\*\* \[e.g., Narrative / UI]
+## 👥 The Team
+* **Lim Wei Qi:** Story Narrator, Game Programmer, Level 1,3, Boss Fight Designer, VFX Particle Designer, Audio Designer
+* **Wong Jing Le:** Story Narrator, Sprite Creator, Animator, Level Designer, UI Designer, Video Editor, Cut Scene Designer
+* **Ham Xiao Tong:** Environment Artist, Story Narrator, Level 2 Designer, Art Designer
 
 
 
-\## ⚙️ Key Technical Contributions (My Work)
+## ⚙️ Key Technical Contributions (My Work)
 
 If you are reviewing my code, I was responsible for architecting the following systems:
 
@@ -50,17 +41,15 @@ If you are reviewing my code, I was responsible for architecting the following s
 
 
 
-\## 🎮 Play the Game
+## 🎮 Play the Game
 
-A playable build is available on \[itch.io](Your\_itch\_link\_here).
+A playable build is available on \[itch.io](https://limwq.itch.io/wuming).
 
 
+## 🚀 How to Run the Project Locally
 
-\## 🚀 How to Run the Project Locally
-
-1\. Clone this repository.
-
-2\. Open \[Unity Hub / Unreal Engine 5].
-
-3\. Select the cloned folder and open the main scene to play.
+1. Clone this repository.
+2. Open Unity Hub and click `Add Project from Disk`.
+3. Select the cloned folder.
+4. Open the boot scene located in `Assets/Scenes/` to begin playing.
 

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/TestScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/test player anim.unity
+    guid: 3ea9e85ae8d76e641a5f819897f5924a
+  - enabled: 1
+    path: Assets/Scenes/_Boot.unity
+    guid: d59e6d04a01439d4c9816e9e726a1ad2
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 119edd5dd0a4b454b9609b536cb4ed8e
+  - enabled: 1
+    path: Assets/Scenes/OpeningAnimScene.unity
+    guid: 9c2ee7ec165c56646adc46d5437fc9b6
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: 8bbbbb4291cb5dd46a24fc8e35555f4a
+  - enabled: 1
+    path: Assets/Scenes/Level_2.unity
+    guid: ebcef1df6e76967439f3220ab2e73cd1
+  - enabled: 1
+    path: Assets/Scenes/Level_3_1.unity
+    guid: e04696d0aa56acf4194f7ddf1a7c5ddd
+  - enabled: 1
+    path: Assets/Scenes/Level_3_2.unity
+    guid: 658f2ea432feaf541b80eb5a85653836
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: e34bd7bc4d7a1c243bf5667b0dcd8b9c
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 073d6eb3af2b0a74e9f921009ff82797
+  m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

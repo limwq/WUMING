@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8219785714211448707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8340466617734131868}
+  - component: {fileID: 2135650191406693824}
+  m_Layer: 0
+  m_Name: VFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8340466617734131868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219785714211448707}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 693.42645, y: 2.97438, z: 210.46677}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2135650191406693824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219785714211448707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee6a7b9b4f2b37459236e5b55980a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VFXManager
+  pools:
+  - vfxTag: Blood
+    prefab: {fileID: 4490321939511749815, guid: ab9f199a052acb24f92993fbfc5ed256, type: 3}
+    poolSize: 20
+  - vfxTag: DeathSpirit
+    prefab: {fileID: 982120896566303942, guid: 330d08b6e9bd09a40af5a351cc08fc13, type: 3}
+    poolSize: 5
+  - vfxTag: DashDust
+    prefab: {fileID: 1829061851719824801, guid: 596cb12fd55f63d44885a8f5b09274db, type: 3}
+    poolSize: 5
+  - vfxTag: BlockSpark
+    prefab: {fileID: 1199237081556420719, guid: a1220cb473d87924ab72378137bf0f00, type: 3}
+    poolSize: 5
+  - vfxTag: SpawnSmoke
+    prefab: {fileID: 581355480042865065, guid: e538dc04113aa6242b1c0006f038d427, type: 3}
+    poolSize: 10
+  - vfxTag: TalismanAsh
+    prefab: {fileID: 6298620766881320833, guid: 920c6e8b33ad2f847b05b3bc4ee8712b, type: 3}
+    poolSize: 10
+  - vfxTag: TalismanSpark
+    prefab: {fileID: 5920524571224272112, guid: 739ce27da1324964ba71a4729be427e0, type: 3}
+    poolSize: 10
+  - vfxTag: TalismanExplosion
+    prefab: {fileID: 1008979232409434943, guid: 4e483913908ff45408ef3f557b3122a6, type: 3}
+    poolSize: 5
+  - vfxTag: AltarExplosion
+    prefab: {fileID: 3911972979448027646, guid: e56fce318e4960945a3b07dcb476f205, type: 3}
+    poolSize: 5
+  - vfxTag: ShieldShatter
+    prefab: {fileID: 1233369581657619978, guid: 90d154dbc1cdc114e9258b1b10f76a72, type: 3}
+    poolSize: 3
+  - vfxTag: AcidSplash
+    prefab: {fileID: 5920524571224272112, guid: 432fecd03cbf4634d8b22b5c6f4bf7df, type: 3}
+    poolSize: 10
+  - vfxTag: SummonLightning
+    prefab: {fileID: 183846349564668458, guid: 631a5db89a183ff40bddc68ccc81652c, type: 3}
+    poolSize: 10
+  - vfxTag: BossTeleportSmoke
+    prefab: {fileID: 1912573027739151387, guid: bd225618260db4b43a8350dec4521cfe, type: 3}
+    poolSize: 10
+  - vfxTag: GhostGather
+    prefab: {fileID: 3275038526524808294, guid: fe69a2061200eab4cbee7eefd2da5687, type: 3}
+    poolSize: 10
+  - vfxTag: GhostAreaBurst
+    prefab: {fileID: 1120475347440390497, guid: ee1255fcfa90a8c4585d58bbab62befd, type: 3}
+    poolSize: 10
+  - vfxTag: BossSpark
+    prefab: {fileID: 5920524571224272112, guid: 252594725989cf84885ceffab9995f2f, type: 3}
+    poolSize: 10
+  - vfxTag: UltimateCharge
+    prefab: {fileID: 8900751007403492484, guid: dc391c88cba88074983b12ee82a22a99, type: 3}
+    poolSize: 5
+  - vfxTag: UltimateNuke
+    prefab: {fileID: 2210096875187673496, guid: e5f449c6000f6054cbcf1d2903557482, type: 3}
+    poolSize: 5
+  - vfxTag: ThunderCloud
+    prefab: {fileID: 3841973546601434327, guid: 6396462510afd6c4497ab831bd4249c3, type: 3}
+    poolSize: 5
